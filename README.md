@@ -83,8 +83,6 @@ try {
 OneSignal SDK Integration for Push Notifications
 Install Node.js and npm if not already installed:
 
-bash
-Copy code
 sudo apt update
 sudo apt install nodejs npm
 Install OneSignal SDK:
@@ -117,6 +115,7 @@ client.createNotification(notification)
     .catch(e => {
         console.log('Error:', e);
     });
+    
 SMTP Configuration
 Configure SMTP settings in your application as per your convenience. Below is an example configuration:
 
